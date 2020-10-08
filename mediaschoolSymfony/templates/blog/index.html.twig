@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+
+<section class="articles">
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 08/10/2020 à 15:00 dans la catégorie politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, libero magnam tenetur perferendis culpa fuga!</p>
+            <p>Corporis iusto voluptate vel corrupti inventore fuga nulla delectus voluptates possimus, excepturi quaerat maxime tempore.</p>
+            <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </article>
+</section>
+<section class="articles">
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 08/10/2020 à 15:00 dans la catégorie politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="">
+            <p>Fugit neque recusandae voluptate eveniet, odit doloremque. Ex sint, tempore nobis placeat facere laboriosam quia!</p>
+            <p>Odio dolorum temporibus, molestias voluptate ex neque totam porro nostrum, nisi possimus excepturi odit facere!</p>
+            <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </article>
+</section>
+<section class="articles">
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le 08/10/2020 à 15:00 dans la catégorie politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="">
+            <p>Distinctio soluta blanditiis assumenda officia similique tempora consequatur odit ratione laudantium accusantium sapiente, quisquam accusamus.</p>
+            <p>Impedit autem ratione laudantium sunt rem, iure, iusto officia odit maxime harum expedita optio provident.</p>
+            <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </article>
+</section>
+
+{% endblock %}
